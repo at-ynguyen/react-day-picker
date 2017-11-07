@@ -34,7 +34,7 @@ export default class Example extends React.Component {
             {' '}<a href="." onClick={this.handleResetClick}>Reset</a>
           </p>}
         <DayPicker
-          numberOfMonths={2}
+          numberOfMonths={1}
           selectedDays={[from, { from, to }]}
           onDayClick={this.handleDayClick}
           fixedWeeks
